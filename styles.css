@@ -7,6 +7,10 @@ body {
   font-weight: 500;
 }
 
+p {
+  font-size: 22;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -37,6 +41,11 @@ li a:hover {
   padding-top: 75px;
 }
 
+.content2 {
+  text-align: center;
+  padding: 50px;
+}
+
 h1 {
   text-shadow: 2px 2px #ed9080;
 }
@@ -56,4 +65,40 @@ h1 {
 .button-one:hover {
   background-color: #21180d; 
   cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  padding-top: 25px;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.button-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.button-two {
+  background-color: #664a26;
+  border: 3px outset grey;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-size: 18px;
+}
+
+.button-two:hover {
+  background-color: #21180d; 
+  cursor: pointer;
+}
+
+.button-link {
+  align-self: center;
 }
