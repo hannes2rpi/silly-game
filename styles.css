@@ -102,3 +102,24 @@ h1 {
 .button-link {
   align-self: center;
 }
+
+.white-text {
+  color: #fff9f2;
+  float: left;
+}
+
+.link-none:link {
+  text-decoration: none;
+}
+
+.link-none:visited {
+  text-decoration: none;
+}
+
+.link-none:hover {
+  text-decoration: none;
+}
+
+.link-none:active {
+  text-decoration: none;
+}
